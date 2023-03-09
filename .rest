@@ -41,13 +41,13 @@ content-type: application/json
 // PRODUCTION Deploy
 //-------------------------------------------
 ###
-GET https://ridesApi.onrender.com
+GET https://ridesapi.onrender.com
 
 ###
-GET https://ridesApi.onrender.com/rides
+GET https://ridesapi.onrender.com/rides
 
 ###
-POST http://ridesApi.onrender.com/rides HTTP/1.1
+POST https://ridesapi.onrender.com/rides HTTP/1.1
 content-type: application/json
 
 {

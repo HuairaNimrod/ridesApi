@@ -8,7 +8,7 @@ const doc = {
     },
     // host: 'localhost:8080', // for localhost 
     // schemes: ['http'] // for localhost
-    host: 'ridesApi.onrender.com', // for production 'localhost:8080'
+    host: 'ridesapi.onrender.com', // for production 'localhost:8080'
     schemes: ['https'] // for production 
   };
 

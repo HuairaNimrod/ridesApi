@@ -1,0 +1,61 @@
+###
+GET http://localhost:8080 HTTP/1.1
+
+
+
+###
+GET http://localhost:8080/rides
+
+
+###
+POST http://localhost:8080/rides HTTP/1.1
+content-type: application/json
+
+{
+"initialPoint": "Rexburg",
+  "endPoint": "Idaho",
+  "time": "14:20",
+  "date": "03/10/2023",
+  "type": "request",
+  "cost": "3",
+  "driver": "Jake"
+}
+
+
+
+
+
+# driver
+# "firstName": "Jacob",
+#   "lastName": "Ross",
+#   "email": "jacob@byui.edu",
+#   "phoneNumber": "3281239009" 
+
+
+
+
+
+
+
+//-------------------------------------------
+// PRODUCTION Deploy
+//-------------------------------------------
+###
+GET https://rideswebapp.onrender.com
+
+###
+GET https://rideswebapp.onrender.com/rides
+
+###
+POST http://localhost:8080/rides HTTP/1.1
+content-type: application/json
+
+{
+"initialPoint": "BYU - Idaho",
+  "endPoint": "BYU - Provo",
+  "time": "14:20",
+  "date": "03/10/2023",
+  "type": "request",
+  "cost": "3",
+  "driver": "Jake"
+}

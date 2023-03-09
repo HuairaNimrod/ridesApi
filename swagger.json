@@ -5,7 +5,7 @@
     "description": "Rides API",
     "version": "1.0.0"
   },
-  "host": "rideswebapp.onrender.com",
+  "host": "ridesApi.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
